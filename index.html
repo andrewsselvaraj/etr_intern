@@ -2,98 +2,29 @@
 <html>
 <head>
     <title>Employee Registration Form</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background: linear-gradient(to right, #4facfe, #00f2fe);
-            margin: 0;
-            padding: 0;
-        }
-
-        .container {
-            width: 400px;
-            margin: 50px auto;
-            background-color: white;
-            padding: 25px;
-            border-radius: 10px;
-            box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
-        }
-
-        h2 {
-            text-align: center;
-            color: #333;
-        }
-
-        label {
-            font-weight: bold;
-        }
-
-        input, select, textarea {
-            width: 100%;
-            padding: 8px;
-            margin-top: 5px;
-            margin-bottom: 15px;
-            border: 1px solid #ccc;
-            border-radius: 5px;
-        }
-
-        .gender {
-            width: auto;
-        }
-
-        button {
-            width: 100%;
-            padding: 10px;
-            background-color: #4facfe;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            font-size: 16px;
-            cursor: pointer;
-        }
-
-        button:hover {
-            background-color: #2d89ef;
-        }
-    </style>
 </head>
 <body>
 
-<div class="container">
-    <h2>Employee Registration Form</h2>
+<h2>Employee Registration Form</h2>
 
-    <form>
-        <label>Employee ID</label>
-        <input type="text" placeholder="Enter Employee ID">
+<form>
+    Employee ID:<br>
+    <input type="text"><br><br>
 
-        <label> Name</label>
-        <input type="text" placeholder="Enter Employee Name">
+    Employee Name:<br>
+    <input type="text"><br><br>
 
-        <label>Email</label>
-        <input type="email" placeholder="Enter Email">
+    Email:<br>
+    <input type="email"><br><br>
 
-        <label>Phone Number</label>
-        <input type="tel" placeholder="Enter Phone Number">
+    Phone Number:<br>
+    <input type="text"><br><br>
 
-        <label>Department</label>
-        <select>
-            <option>HR</option>
-            <option>IT</option>
-            <option>Finance</option>
-            <option>Marketing</option>
-        </select>
+    Department:<br>
+    <input type="text"><br><br>
 
-        <label>Gender</label><br>
-        <input type="radio" name="gender" class="gender"> Male
-        <input type="radio" name="gender" class="gender"> Female
-        <br><br>
-
-        <label>Address</label>
-        <textarea rows="4" placeholder="Enter Address"></textarea>
-
-        <button type="submit">Register</button>
-    </form>
-</div><p>Updated by Jeevika</p>
+    <input type="submit" value="Register">
+</form>
 
 </body>
 </html>
