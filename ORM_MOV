@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>MVC and ORM</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        div { border: 2px solid black; padding: 15px; }
+        h1 { text-align: center; font-family: Georgia, serif; }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>MVC and ORM</h1>
+
+        <h3>MVC</h3>
+        <p>MVC (Model View Controller) is a design pattern that separates data, user interface, and application logic.</p>
+
+        <h3>ORM</h3>
+        <p>ORM (Object Relational Mapping) allows developers to interact with databases using objects instead of SQL queries.</p>
+    </div>
+</body>
+</html>
