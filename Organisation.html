@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Organisation Entry</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Segoe UI, Arial, sans-serif;
+}
+
+body{
+    background:#EEF5FF;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.container{
+    width:420px;
+    background:#fff;
+    padding:22px 28px;
+    border-radius:15px;
+    box-shadow:0 8px 18px rgba(0,0,0,0.12);
+}
+
+h2{
+    text-align:center;
+    color:#3B4CCA;
+    margin-bottom:4px;
+    font-size:28px;
+}
+
+p{
+    text-align:center;
+    color:#777;
+    font-size:13px;
+    margin-bottom:18px;
+}
+
+label{
+    display:block;
+    font-size:14px;
+    font-weight:600;
+    color:#333;
+    margin-top:10px;
+    margin-bottom:4px;
+}
+
+input,
+select{
+    width:100%;
+    height:38px;
+    padding:0 10px;
+    border:1px solid #D6D6D6;
+    border-radius:8px;
+    font-size:14px;
+    transition:.3s;
+}
+
+input:focus,
+select:focus{
+    outline:none;
+    border-color:#4F46E5;
+    box-shadow:0 0 4px rgba(79,70,229,.25);
+}
+
+.buttons{
+    display:flex;
+    gap:12px;
+    margin-top:20px;
+}
+
+button{
+    flex:1;
+    height:40px;
+    border:none;
+    border-radius:8px;
+    font-size:15px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.save{
+    background:#4F46E5;
+    color:white;
+}
+
+.save:hover{
+    background:#4338CA;
+}
+
+.reset{
+    background:#E5E7EB;
+    color:#333;
+}
+
+.reset:hover{
+    background:#D1D5DB;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>Organisation Entry</h2>
+<p>Enter organisation details</p>
+
+<form>
+
+<label>Organisation ID</label>
+<input type="text" placeholder="ORG001">
+
+<label>Organisation Name</label>
+<input type="text" placeholder="Enter Organisation Name">
+
+<label>Organisation Email</label>
+<input type="email" placeholder="organisation@email.com">
+
+<label>Status</label>
+<select>
+    <option>ACTIVE</option>
+    <option>INACTIVE</option>
+</select>
+
+<label>Created User</label>
+<input type="text" placeholder="Created User">
+
+<label>Updated User</label>
+<input type="text" placeholder="Updated User">
+
+<div class="buttons">
+    <button type="submit" class="save">Save</button>
+    <button type="reset" class="reset">Reset</button>
+</div>
+
+</form>
+
+</div>
+
+</body>
+</html>
