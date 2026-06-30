@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Info</title>
+
+    <link rel="stylesheet" href="user_info.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+
+<div class="box">
+
+    <div class="form">
+
+        <h1>User Info</h1>
+        <p>Enter User Details</p>
+
+        <label>User ID</label>
+        <input type="text" id="User_ID" placeholder="USR001">
+
+        <label>Organisation</label>
+        <select>
+            <option selected disabled>Select Organisation</option>
+            <option>ORG007 - Sanjay Software Pvt Ltd</option>
+        </select>
+
+        <label>Username</label>
+        <input type="text" placeholder="Username">
+
+        <label>User Email</label>
+        <input type="email" placeholder="user@gmail.com">
+
+        <label>Role</label>
+        <select>
+            <option selected disabled>Select Role</option>
+            <option>Administrator</option>
+            <option>Project Manager</option>
+            <option>Software Developer</option>
+            <option>QA Engineer</option>
+        </select>
+
+        <label>Status</label>
+        <select>
+            <option>ACTIVE</option>
+            <option>INACTIVE</option>
+        </select>
+
+        <label>Created User</label>
+        <input type="text">
+
+        <label>Updated User</label>
+        <input type="text">
+
+        <button type="submit" class="submit">Submit</button>
+
+    </div>
+
+    <div class="contact">
+
+        <h2>Need Help?</h2>
+
+        <div class="icon">
+
+            <a href="mailto:user@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+
+            <div>
+                <h4>Email Us</h4>
+                <p>user@gmail.com</p>
+            </div>
+
+        </div>
+
+        <div class="icon">
+
+            <a href="tel:+91904372895">
+                <i class="fa-solid fa-phone"></i>
+            </a>
+
+            <div>
+                <h4>Contact Us</h4>
+                <p>+91 90437 2895</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script>
+document.getElementById("User_ID").addEventListener("input", function () {
+    this.value = this.value.toUpperCase();
+});
+</script>
+
+</body>
+</html>
