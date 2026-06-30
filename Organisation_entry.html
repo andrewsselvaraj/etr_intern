@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Organisation Entry</title>
+    
+</head>
+<body>
+    <div class="heading">
+        <h1>Organisation Entry</h1>
+        <p>Entter organisation details.</p>
+        <form action="">
+        <label>Organisation ID</label>
+        <input type="text">
+
+        <label>Organisation Name</label>
+        <input type="text">
+
+        <label>Organisation Email</label>
+        <input type="email">
+
+        <label>Status</label>
+
+        <select>
+            <option>ACTIVE</option>
+            <option>INACTIVE</option>
+        </select>
+
+        <label>Created User</label>
+        <input type="text">
+
+        <label>Updated User</label>
+        <input type="text">
+    </form>
+
+    <button type="submit">Save</button>
+    <button type="reset">Reset</button>
+    </div>
+
+    
+</body>
+</html>
+
+
+<style>
+    body{
+        margin:0px;
+        background:hsl(0, 4%, 95%);
+        font-family:Arial, sans-serif;
+    }
+
+    .heading{
+        width:450px;
+        margin:60px auto;
+        background:white;
+        padding:30px;
+    border-radius:10px;
+    }
+
+    h1{
+        text-align:center;
+    }
+    p{
+        text-align:center;
+        color:gray;
+    }
+    label{
+        display:block;
+        margin-top:15px;
+        font-weight:bold;
+    }
+    input,select{
+        width:100%;
+        padding:12px;
+        margin-top:5px;
+        border-radius:8px;
+        border:1px solid lightgray;
+        box-sizing: border-box;
+    }
+    button{
+        width:100%;
+        padding:15px;
+        margin-top:20px;
+        background:hsl(16, 79%, 47%);
+        color:white;
+        border:none;
+        border-radius:10px;
+        cursor:pointer;
+    }
+</style>
