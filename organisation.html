@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Entry</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background:#f2f2f2;
+        }
+
+        .container{
+            width:450px;
+            margin:40px auto;
+            background:#fff;
+            padding:20px;
+            border-radius:10px;
+            box-shadow:0 0 10px gray;
+        }
+
+        h2{
+            text-align:center;
+        }
+
+        label{
+            font-weight:bold;
+        }
+
+        input, select{
+            width:100%;
+            padding:8px;
+            margin:8px 0 15px;
+            border:1px solid #ccc;
+            border-radius:5px;
+            box-sizing:border-box;
+        }
+
+        button{
+            width:100%;
+            padding:10px;
+            background:#007bff;
+            color:white;
+            border:none;
+            border-radius:5px;
+            cursor:pointer;
+            font-size:16px;
+        }
+
+        button:hover{
+            background:#0056b3;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+    <h2>User Entry</h2> 
+
+    <form>
+        <label>User ID</label>
+        <input type="text" placeholder="Enter User ID">
+
+        <label>Organization ID</label>
+        <input type="text" placeholder="Enter Organization ID">
+
+        <label>User Name</label>
+        <input type="text" placeholder="Enter User Name">
+
+        <label>Email</label>
+        <input type="email" placeholder="Enter Email">
+
+        <label>Role ID</label>
+        <input type="text" placeholder="Enter Role ID">
+ 
+        <label>Status</label>
+        <select>
+            <option>ACTIVE</option>
+            <option>INACTIVE</option>
+        </select>
+
+        <label>Created User</label>
+        <input type="text" placeholder="Enter Created User">
+
+        <label>Updated User</label>
+        <input type="text" placeholder="Enter Updated User">
+
+        <button type="submit">Save</button>
+    </form>
+</div>
+
+</body>
+</html>
